@@ -17,11 +17,11 @@ MTB (Module Test Bed) - this is part of the test infrastructure, and includes DA
  
 **Reference Application**
 Built on mbedOS, and includes Pelion Device Manager. This application has been configured to run on the Reference Design hardware, and will connect to the Pelion Cloud, and is capable of running the cloud based update service.
-Please refer to the \Documentation\RD1168_Readme.md for instructions on how to build & use this example application.
+Please refer to the [\Documentation\RD1168_Readme.md](https://github.com/ARMmbed/reference-design-RD1168/blob/master/Documentation/RD1168_README.md) for instructions on how to build & use this example application.
 
 # Version Information:
 		
 | Release | mbed OS | mbed Cloud Client | Release Date | Comment |
 | --- | --- | --- | --- | --- | 
-|v1.0 | 5.9.5	| 1.3.3	| 14/09/2018 | Initial Release
+|v1.0 | 5.9.6	| 1.3.3	| 19/09/2018 | Initial Release
 | |  |  |   | 
