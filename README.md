@@ -23,5 +23,5 @@ Please refer to the \Documentation\RD1168_Readme.md for instructions on how to b
 		
 | Release | mbed OS | mbed Cloud Client | Release Date | Comment |
 | --- | --- | --- | --- | --- | 
-|v1.0 | 5.9.5	| 1.3.3	| 14/09/2018 | Initial Release
+|v1.0 | 5.9.6	| 1.3.3	| 19/09/2018 | Initial Release
 | |  |  |   | 
