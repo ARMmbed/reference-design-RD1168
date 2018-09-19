@@ -4,6 +4,8 @@ This Reference Application is targetted specifically at the RD1168 Reference Des
 
 The current version of the Reference Application uses: Mbed OS v5.9.5 and Mbed Cloud Client v1.3.3.
 
+Note: references to Mbed Cloud and Pelion Device Managament are interchangeable.  For example: “Mbed Cloud Client enables the device to communicate with Pelion Device Management” and “Mbed Cloud Client enables the device to communicate with Mbed Cloud” have the same meaning.  In later versions we will remove references to Mbed Cloud inline with branding guidelines.
+
 # Pre-requisites:
 1. Hardware:
     * RD1168 based board or platform (the application was developed and tested using the Example Implemenation Hardware - MCB/MTB
@@ -30,7 +32,7 @@ The current version of the Reference Application uses: Mbed OS v5.9.5 and Mbed C
     * In the mbed_app.json file in the root of the application, modify the WiFi SSID and password for your network.
     * Save the changes.
 
-4. The supplied Bootloader in ../tools/ is currently built to use SPI Flash. If you are using the SPI Flash to store the certificates, then you are good to go. If you prefer to use the SD card for the storage, follow the steps below. If not, you may skip these.
+4. The supplied Bootloader in ../tools/ is currently built to use SPI Flash. If you are using the SPI Flash to store the certificates, then you are good to go. If you prefer to use the SD card for the storage, follow the steps below. If not, you may skip these & move to step 11.
    
 5. To build the bootloader to use the SD card: TIP: You may want to use atleast a Class 10, 2GB SD card.
     * Import the bootloader repo - https://github.com/ARMmbed/mbed-bootloader
@@ -49,6 +51,11 @@ The current version of the Reference Application uses: Mbed OS v5.9.5 and Mbed C
     
     ```
     "update-client.storage-address"  : "(1024*1024*64)",  
+	```
+	
+	And 
+	
+	```
     "MTB_MXCHIP_EMW3166": {  
     "flash-start-address"              : "0x08000000",  
     "flash-size"                       : "(1024*1024)",  
